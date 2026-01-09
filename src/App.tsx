@@ -10,12 +10,18 @@ function LandingPage() {
     <div className="p-10 text-center">
       <h1 className="text-4xl font-bold mb-4">Welcome to EmirApp</h1>
       <p className="text-lg text-gray-600 mb-6">
-        Manage your medicine batches, shipments, and medicines easily.
+        Manage your medicine batches, shipments, and more with a modern dashboard.
       </p>
       <nav className="space-x-6">
-        <Link to="/batches" className="text-blue-600 hover:underline">Batches</Link>
-        <Link to="/shipments" className="text-blue-600 hover:underline">Shipments</Link>
-        <Link to="/medicines" className="text-blue-600 hover:underline">Medicines</Link>
+        <Link to="/batches" className="text-blue-600 hover:underline">
+          Batches
+        </Link>
+        <Link to="/shipments" className="text-blue-600 hover:underline">
+          Shipments
+        </Link>
+        <Link to="/medicines" className="text-blue-600 hover:underline">
+          Medicines
+        </Link>
       </nav>
     </div>
   );
